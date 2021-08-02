@@ -6,4 +6,5 @@ $('.slider-principal').slick({
     adaptiveHeight: true,
     autoplay: true,
     autoplaySpeed: 2000
+
 });
