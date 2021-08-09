@@ -197,6 +197,7 @@ li.slick-active button{
     width: 29%;
     float: left;
     position: relative;
+    margin-left: 11px;
 }
 
 .col-3 img.content-2{
@@ -248,6 +249,15 @@ h3{
 
 }
 
+.bloco-imagens-texto:after{
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 45px;
+    background-color: #eeeeee;
+}
+
+
 .col-4{
     float: left;
     width: 25%;
@@ -276,3 +286,93 @@ h3{
     margin-top: 30px;
 }
 
+.footer{
+    background-image: url(../img/footer.png);
+    color: white;
+}
+
+.footer-2{
+    background-image: url(../img/footer2.png);
+    color: #c1c1c1;
+    height: 80px;
+}
+
+.footer-2 p{
+    padding: 10px;
+    text-align: left;
+}
+
+.footer h3{
+    text-align: left;
+}
+
+.clock{
+    color: #898989!important;
+}
+
+.clock:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../img/clock.png);
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+
+}
+
+.footer p{
+  
+    text-align: left;
+    padding: 7px;
+
+}
+
+.local:before, .emailico:before, .telefoneico:before{
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    margin-left: 3px;
+}
+
+.local:before{
+    background-image: url(../img/emailico.png);
+}
+
+.emailico:before{
+    background-image: url(../img/email.png);
+}
+
+.telefoneico:before{
+    background-image: url(../img/telefoneico.png);
+}
+
+
+.frase{
+    margin-top: 25px;
+    float: left;
+    width: 60%;
+}
+
+.barrafinal ul li{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding-left: 25px;
+}
+
+.barrafinal ul{
+    margin-right: 29px;
+    margin-top: 30px;
+    width: 35%;
+    float: left;
+}
+
+.col-100 .footer-2{
+    width: 100%;
+}
